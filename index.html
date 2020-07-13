@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<!--
+© COPYRIGHT VAIA ITHILNAUR 2019
+https://github.com/VaiaIthilnaur
+-->
+
+<html lang="pl">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="-1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	  
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="author" content="Szymon Czartoryski">
+		<title>NERD Festival</title>
+     
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css'>
+		
+		<link rel="stylesheet" href="css/style.css">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+		
+		
+		
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+		
+		<script src="js/jquery.min.js"></script>
+		
+		
+		
+	
+		
+</head>
+<body>
+	
+	<header>	
+		<div class="modal-header">
+			<div class="mediaFonts">
+				<a href="https://www.facebook.com/NerdFestival/" target="_blank"><i class="fab fa-facebook-f" style="margin-left:20px;"></i></a>
+				<a href="https://www.instagram.com/nerd_festival/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCuyCY7CM2RGKzOace7Ww2mQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				<a href="https://www.twitch.tv/nerd_festival" target="_blank"><i class="fab fa-twitch"></i></a>
+				<div class="rulesText">
+					<a href="https://drive.google.com/drive/folders/1qzqzBlLUCZRHysZCGzymqHs1d-idVFAq?fbclid=IwAR2zMTTdffrLMUeToU1RCCKWWyYI8oWXev8OjZzuvsyTwqT3dnAzCJzyxnw" target="_blank"><p>Regulamin</p></a>
+				</div>
+			</div>
+		</div>
+        <div class="container-fluid" >
+		<div class="row">
+		   <div class="col-md-8 divWithLogo"><img class="mainLogo" src="img/logo.png" alt="Logo" ></div>
+			<div class="col-md-4 divWithText" >
+				<img class="mainButton" src="img/aktualnosci.png" alt="Logo" data-toggle="modal"
+        data-target="#aktualnosci">
+				<img class="mainButton" src="img/informacje.png" alt="Logo" data-toggle="modal"
+        data-target="#informacje">
+				<img class="mainButton" src="img/media.png" alt="Logo" data-toggle="modal"
+        data-target="#media">
+				<img class="mainButton" src="img/kontakt.png" alt="Logo" data-toggle="modal"
+        data-target="#kontakt">
+			</div>
+		</div>
+		</div>
+		
+<!-- BUBEK :D -->		
+	
+		<img class="bubekImg" src="img/bubek.png" >
+	
+		
+<!-- MODALE :D -->
+
+<div id="kontakt" class="modal animated bounceIn" tabindex="-1"role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body" style="overflow:hidden;">
+		<div class="modal-header">
+			<div class="mediaFonts">
+				<a href="https://www.facebook.com/NerdFestival/" target="_blank"><i class="fab fa-facebook-f" style="margin-left:20px;"></i></a>
+				<a href="https://www.instagram.com/nerd_festival/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCuyCY7CM2RGKzOace7Ww2mQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				<a href="https://www.twitch.tv/nerd_festival" target="_blank"><i class="fab fa-twitch"></i></a>
+				<div class="rulesText">
+					<a data-dismiss="modal" target="_blank"><p>Zamknij</p></a>
+				</div>
+			</div>
+		</div>
+			<img class="planeImg" src="img/samolot.png" >
+			<img data-dismiss="modal" class="btnClose"  src="img/zamknij.png">
+		  
+			<section class="contact">
+					<h3>Kontakt</h3>
+					<p>Aby się z nami skontaktować, wypełnij poniższy formularz</p>
+				<div class="contact-form">
+					<form id="contact-form" method="post" action="sendEmail.php">
+						<input name="name" type="text" class="form-control" placeholder="Imię i Nazwisko" required><br>
+						<input name="email" type="text" class="form-control" placeholder="E-mail" required><br>
+						<input name="subject" type="text" class="form-control" placeholder="Temat" required><br>
+						<textarea name="message" class="form-control message" placeholder="Wiadomość" row="4" required></textarea>
+						<br> 
+						<input type="image" class="submit" src="img/send.png" >
+					</form>
+				</div>
+			</section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="informacje" class="modal animated bounceIn" tabindex="-1"role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+	<div class="modal-body mostImportant">
+		<div class="modal-header">
+			<div class="mediaFonts">
+				<a href="https://www.facebook.com/NerdFestival/" target="_blank"><i class="fab fa-facebook-f" style="margin-left:20px;"></i></a>
+				<a href="https://www.instagram.com/nerd_festival/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCuyCY7CM2RGKzOace7Ww2mQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				<a href="https://www.twitch.tv/nerd_festival" target="_blank"><i class="fab fa-twitch"></i></a>
+				<div class="rulesText">
+					<a data-dismiss="modal" target="_blank"><p>Zamknij</p></a>
+				</div>
+			</div>
+		</div>
+			<img class="planeImg" src="img/samolot.png" >
+			<img data-dismiss="modal" class="btnClose"  src="img/zamknij.png">
+			<div class="aboutWNF">
+				<div class="aboutWNFSquare">
+					<img class="oWołów" src="img/info/w wołów nerd festival.png" >
+					<div class="aboutWNFWhiteSquare">
+						<p>
+							Nerd w dosłownym tłumaczeniu na język Polski znaczy Spec, właśnie dla takich Nerdów powstał „Wołów Nerd Festival”- impreza tematyczna zrzeszająca ze sobą fanów różnych kultur.
+							</br>
+							</br>
+							Podczas Wołów Nerd Festival trwają różnego rodzaju warsztaty, turnieje, prelekcje, każdy znajdzie tutaj coś ciekawego dla siebie!
+							</br>
+							</br>
+							Jeśli czujesz w sobie wewnętrznego Nerda serdecznie zapraszamy na nasz Festiwal!
+							</br></br>
+
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="notGame">
+				<div class="aboutWNFSquare">
+					<img class="oWołów" style="width:60%;"  src="img/info/nie tylko.png" >
+					<div class="aboutWNFWhiteSquare">
+						<p class="smallerLetter">
+							Podczas wydarzenia Wołów Nerd Festival będzie wiele dodatkowych atrakcji.
+							Już w ubiegłych Latach organizowaliśmy przesteń z grami planszowymi I fabularnymi.</br>
+							W tym roku również nie zabraknie pokoju gier planszowych, festiwal rozwijamy o takie atrakcje jak:</br></br>
+							> Nerd Cafe, gdzie będzie można poczęstować się smakołykami, przygotowanymi przez naszych wolonatriuszy,</br></br>
+							> Na festiwalu będzie gurować tematyka cosplay’u, czyli zabawa w przebieranie się za postaci z mangi, anime, gier komputerowych I filmów popularne w kulturze japońskiej,
+							>Konkursy oraz warsztaty, gdzie każdy znajdzie coś dla siebie.</br></br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="whenWNF">
+				<div class="aboutWNFSquare">
+					<img class="oWołów" style="width:60%;" src="img/info/kiedy i gdzie.png" >
+					<div class="aboutWNFWhiteSquare">
+						<p>
+							Wołów Nerd Festival trwa cały rok, wspólnie organizujemy różnego rodzaju konkursy, turnieje, warsztaty.</br>
+							Impreza Kulminacyjna Wołów Nerd Festival odbędzie się 06-07 kwietnia 2019r. </br>W Wołowskim Ośrodku Kultury na ulicy Władysława Sikorskiego 6.</br></br>
+
+
+						</p>
+					</div>
+				</div>
+			
+			</div>
+			<div class="aboutOrg">
+				<div class="aboutWNFSquare">
+					<img class="oWołów" style="width:60%;" src="img/info/o organizatorze.png" >
+					<div class="aboutWNFWhiteSquare">
+						<p class="smallerLetter">
+							Wołów Nerd Festival to wydarzenie powstałe dzięki sukcesowi Electronic Games – przedsięwzięciu trzech młodych osób (Karoliny Kołackiej, Wiktorii Kajdzik oraz Michała Wojsławskiego), które chciały zrobić cos dla swojego miasta I postanowiły zorganizować turniej e-sportowy.</br>
+							Młodzież zorganizowała coś dla młodzieży.</br>
+							Już pierwsza edycja EG spotkała się z dużym zainteresowaniem nie tylko graczy, ale także mieszkańców.</br>
+							Ten sukces sprawił, iż formuła kolejnej edycji rozwijała się wraz z zainteresowaniem I zaangażowaniem wołowskiej młodzieży,
+							bez której zorganizowanie tak skomplikowanego przedsięwzięcia nie mogłaby sie udać.</br>
+							Ważna była również współpraca z Wołowskim Ośrodkiem Kultury,
+							w szczególności z panem Rafałem Zającem.</br></br>
+
+
+						</p>
+					</div>
+				</div>
+			
+			</div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="media"  class="modal animated bounceIn" tabindex="-1"role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+		<div class="modal-body  goodBG">
+			
+		<div class="modal-header">
+			<div class="mediaFonts">
+				<a href="https://www.facebook.com/NerdFestival/" target="_blank"><i class="fab fa-facebook-f" style="margin-left:20px;"></i></a>
+				<a href="https://www.instagram.com/nerd_festival/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCuyCY7CM2RGKzOace7Ww2mQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				<a href="https://www.twitch.tv/nerd_festival" target="_blank"><i class="fab fa-twitch"></i></a>
+				<div class="rulesText">
+					<a data-dismiss="modal" target="_blank"><p>Zamknij</p></a>
+				</div>
+			</div>
+		</div>
+				
+			
+			<img data-dismiss="modal" class="btnClose" src="img/zamknij.png">
+			<img class="planeImg" src="img/samolot.png">
+			
+			<img class="mediaLogo" src="img/sponsorzy.png"  alt="Logo">
+				<div class="slideshow-container">
+					<div class="mySlides"> 
+					  <img src="img/Sponsorzy/cimone.png">
+					</div>
+					<div class="mySlides">
+					  <img src="img/Sponsorzy/pukawka.png">
+					</div>
+					<div class="mySlides">
+					  <img src="img/Sponsorzy/wok.png">
+					</div>
+					<div class="mySlides">
+					  <img src="img/Sponsorzy/gmina.png">
+					</div>
+					<a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next1" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<div class="downContainerMedia">
+					<div class="container">
+						<div class="col-md-8 col-md-offset-2 ">
+								<h1 class="textMedia">Patroni Medialni</h1>
+								<div class="carousel slide" id="myCarousel">
+								  <div class="carousel-inner">
+										<div style="margin-left:20px;" class="item active">
+										  <div  class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+										  <a  href="#"><img src="img/PatroniMedialni/df.png" class="img-responsive"></a></div>
+										</div>
+										<div class="item ">
+										  <div  class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+										  <a href="#"><img src="img/PatroniMedialni/konwentypol.png" class="img-responsive"></a></div>
+										</div>
+										<div class="item ">
+										  <div  class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+										  <a href="#"><img src="img/PatroniMedialni/zg.png" class="img-responsive"></a></div>
+										</div>
+								  </div>
+								  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+								  <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+								</div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+		<!--
+      <div class="modal-footer">
+		<button class="btn btn-default">
+          Default
+        </button>
+        <button class="btn btn-primary">
+          Primary
+        </button> 
+      </div>
+		-->
+    </div>
+  </div>
+</div>
+
+<div id="aktualnosci" class="modal animated bounceIn" tabindex="-1"role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">		
+      <div class="modal-body mostImportant">
+			<div class="topnav" id="myTopnav">
+				<div class="centeringTopNav">
+				  <a href="#harmonogram">Harmonogram</a>
+				  <a href="#photoGallery">Galeria zdjęć</a>
+				  <a href="#konkursy">Konkursy</a>
+				  <a href="#nerdCafe">Nerdcafe</a>
+				  <a href="#kartaZglo">Karta zgłoszeniowa</a>
+				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				  </a>
+				</div>
+			</div>
+
+			<img class="planeImg" src="img/samolot.png" >
+			<img data-dismiss="modal" class="btnClose"  src="img/zamknij.png">
+			<img class="mediaLogo forBigger" src="img/aktualnosci/aktualnosci.png"  alt="Logo">
+			
+			<div id="harmonogram" class="harmonogram">
+				<h1>Harmonogram</h1>
+				<div class="firstSquare">
+					<h2>Dzień 1</h2>
+					<div class="whiteSquare">
+						<p>
+							&gt;Oficjalne rozpoczęcie Wołów Nerd Festival godz. 9:00 </br></br>
+							&gt;Turniej Gier League Of Legends 10:00-19:30</br></br>
+							&gt;Ceremonia rozdania nagród godz. 20:00</br></br>
+							&gt;Warsztaty haftu z Traditional Pixels godz. 13:00-15:00</br></br>
+							&gt;Pokój planszówek godz.9:00-13:30</br></br>
+							&gt;Turniej w Kingdomino &ndash; eliminacje do Mistrzostw Polski 14:00</br></br>
+							&gt;Nerd Cafe 10:00-20:00
+						</p>
+					</div>
+				</div>
+				<div class="secSquare">	
+					<h2>Dzień 2</h2>
+					<div class="whiteSquare">
+						<p> 
+							&gt;Rozpoczęcie	drugiego dnia Wołów Nerd Festival godz. 9:00</br></br>
+							&gt;Turniej Gier CS:GO 10:00-19:30</br></br>
+							&gt;Ceremonia Rozdania Nagród godz. 20:00</br></br>
+							&gt;Turniej Fifa godz.12:00-19:30</br></br>
+							&gt;Strefa Wolnego Grania 10:00-20:00</br></br>
+							&gt;Pokój Planszówek 12:00-15:00</br></br>
+							&gt;Warsztaty z malowania figurek 15:00-17:00</br></br>
+							&gt;Pokój planszówek 17:00-19:30</br></br>
+							&gt;Pokój Anime</br></br>
+							&gt;Nerd Cafe 10:00-20:00
+						</p>
+					</div>
+					<a target="_blank" href="https://drive.google.com/drive/folders/1qzqzBlLUCZRHysZCGzymqHs1d-idVFAq?fbclid=IwAR2zMTTdffrLMUeToU1RCCKWWyYI8oWXev8OjZzuvsyTwqT3dnAzCJzyxnw"><h2>&gt;Pobierz program tutaj</h2></a>
+				</div>
+			</div>
+			<div id="photoGallery" class="photoGallery">
+				<h1>Nasze zdjęcia</h1>
+				<div class="container">
+					<div class="photoItself col-md-12">
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/0.jpg">
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/1.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/2.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/3.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/4.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/5.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/6.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/7.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/8.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/9.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/10.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/11.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/13.jpg" >
+						<img class="col-lg-4 col-xs-12 col-md-4 col-sm-4 photosInBox" src="img/aktualnosci/14.jpg" >
+					</div>
+				</div>
+			</div>
+			<div id="konkursy" class="konkursy">
+				<div class="asdk">
+					<h1>Kto nie lubi konkursów ?!</h1>
+					<h2>
+						Szykujcie się, podczas festiwalu przygotowaliśmy dla Was masę konkursów!</br></br>
+						Więcej informacji już wkrótce!
+					</h2>
+				</div>
+			</div>
+			<div id="nerdCafe" class="nerdCafe">
+				<div class="asdn">
+					<h1>Nerd Cafe</h1>
+					<p>
+						Prawdziwy Nerd lubi sobie zjeść!
+							</br></br>
+						Dlatego, przez cały czas trwania Festiwalu dostępna będzie dla was Nerd Cafejka, czyli kawiarenka tematyczna, gdzie wyczerpani będziecie mogli usiąść, porozmawiać, odetchnąć oraz spróbować przygotowanych przez naszych wolntariuszy posiłków!
+							</br></br>
+						Manu oraz cennik będą dostępne podczas trwania Wołów Nerd Festival
+			
+					</p>
+					<h2>Zapraszamy!<h2>
+				</div>
+			</div>
+			<div id="kartaZglo" class="kartaZglo">
+				<div class="centerKarta">
+					<h1> 
+						Zgłoszenia na drugą edycję </br>
+						Wołów Nerd Festival </br>
+						Dostępne będą już wkrótce
+					</h1>
+				</div>
+			</div>
+	   
+      </div>
+		<!--
+      <div class="modal-footer">
+		<button class="btn btn-default">
+          Default
+        </button>
+        <button class="btn btn-primary">
+          Primary
+        </button> 
+      </div>
+		-->
+    </div>
+  </div>
+</div>
+
+</header>
+	<section  class="footer">
+		<div class="lockup">
+			<div class="content-wrap">
+				<p class="copyright">© Wszelkie prawa zastrzeżone | NERD Festival 2019</p>
+			</div>
+		</div>
+	</section>
+	  
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js'></script>
+
+      <script>
+		$('.photosInBox').click(function(){
+			$(this).toggleClass('clicked');
+		});
+
+		
+	  $('#myCarousel').carousel({
+		  interval: 40000
+		});
+
+		$('.carousel .item').each(function(){
+		  var next = $(this).next();
+		  if (!next.length) {
+			next = $(this).siblings(':first');
+		  }
+		  next.children(':first-child').clone().appendTo($(this));
+
+		  if (next.next().length>0) {
+		 
+			  next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
+			  
+		  }
+		  else {
+			  $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+			 
+		  }
+		});
+
+	  
+		var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+	  </script>
+	
+	
+	
+</body>
+</html>
